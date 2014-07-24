@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DF13ED19808F8100F97E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF13EC19808F8100F97E04 /* AppDelegate.swift */; };
+		52DF13EF19808F8100F97E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF13EE19808F8100F97E04 /* ViewController.swift */; };
+		52DF13F219808F8100F97E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DF13F019808F8100F97E04 /* Main.storyboard */; };
+		52DF13F419808F8100F97E04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DF13F319808F8100F97E04 /* Images.xcassets */; };
+		52DF140019808F8100F97E04 /* naturesoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF13FF19808F8100F97E04 /* naturesoundTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DF13FA19808F8100F97E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DF13DF19808F8100F97E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF13E619808F8100F97E04;
+			remoteInfo = naturesound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52DF13E719808F8100F97E04 /* naturesound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naturesound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF13EB19808F8100F97E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DF13EC19808F8100F97E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52DF13EE19808F8100F97E04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52DF13F119808F8100F97E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DF13F319808F8100F97E04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52DF13F919808F8100F97E04 /* naturesoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naturesoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF13FE19808F8100F97E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DF13FF19808F8100F97E04 /* naturesoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturesoundTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DF13E419808F8100F97E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF13F619808F8100F97E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DF13DE19808F8100F97E04 = {
+			isa = PBXGroup;
+			children = (
+				52DF13E919808F8100F97E04 /* naturesound */,
+				52DF13FC19808F8100F97E04 /* naturesoundTests */,
+				52DF13E819808F8100F97E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DF13E819808F8100F97E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DF13E719808F8100F97E04 /* naturesound.app */,
+				52DF13F919808F8100F97E04 /* naturesoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DF13E919808F8100F97E04 /* naturesound */ = {
+			isa = PBXGroup;
+			children = (
+				52DF13EC19808F8100F97E04 /* AppDelegate.swift */,
+				52DF13EE19808F8100F97E04 /* ViewController.swift */,
+				52DF13F019808F8100F97E04 /* Main.storyboard */,
+				52DF13F319808F8100F97E04 /* Images.xcassets */,
+				52DF13EA19808F8100F97E04 /* Supporting Files */,
+			);
+			path = naturesound;
+			sourceTree = "<group>";
+		};
+		52DF13EA19808F8100F97E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DF13EB19808F8100F97E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52DF13FC19808F8100F97E04 /* naturesoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DF13FF19808F8100F97E04 /* naturesoundTests.swift */,
+				52DF13FD19808F8100F97E04 /* Supporting Files */,
+			);
+			path = naturesoundTests;
+			sourceTree = "<group>";
+		};
+		52DF13FD19808F8100F97E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DF13FE19808F8100F97E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DF13E619808F8100F97E04 /* naturesound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF140319808F8100F97E04 /* Build configuration list for PBXNativeTarget "naturesound" */;
+			buildPhases = (
+				52DF13E319808F8100F97E04 /* Sources */,
+				52DF13E419808F8100F97E04 /* Frameworks */,
+				52DF13E519808F8100F97E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = naturesound;
+			productName = naturesound;
+			productReference = 52DF13E719808F8100F97E04 /* naturesound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DF13F819808F8100F97E04 /* naturesoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF140619808F8100F97E04 /* Build configuration list for PBXNativeTarget "naturesoundTests" */;
+			buildPhases = (
+				52DF13F519808F8100F97E04 /* Sources */,
+				52DF13F619808F8100F97E04 /* Frameworks */,
+				52DF13F719808F8100F97E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF13FB19808F8100F97E04 /* PBXTargetDependency */,
+			);
+			name = naturesoundTests;
+			productName = naturesoundTests;
+			productReference = 52DF13F919808F8100F97E04 /* naturesoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DF13DF19808F8100F97E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = zyinshi;
+				TargetAttributes = {
+					52DF13E619808F8100F97E04 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					52DF13F819808F8100F97E04 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 52DF13E619808F8100F97E04;
+					};
+				};
+			};
+			buildConfigurationList = 52DF13E219808F8100F97E04 /* Build configuration list for PBXProject "naturesound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DF13DE19808F8100F97E04;
+			productRefGroup = 52DF13E819808F8100F97E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DF13E619808F8100F97E04 /* naturesound */,
+				52DF13F819808F8100F97E04 /* naturesoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DF13E519808F8100F97E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF13F219808F8100F97E04 /* Main.storyboard in Resources */,
+				52DF13F419808F8100F97E04 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF13F719808F8100F97E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DF13E319808F8100F97E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF13EF19808F8100F97E04 /* ViewController.swift in Sources */,
+				52DF13ED19808F8100F97E04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF13F519808F8100F97E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF140019808F8100F97E04 /* naturesoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DF13FB19808F8100F97E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF13E619808F8100F97E04 /* naturesound */;
+			targetProxy = 52DF13FA19808F8100F97E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52DF13F019808F8100F97E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DF13F119808F8100F97E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DF140119808F8100F97E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DF140219808F8100F97E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DF140419808F8100F97E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = naturesound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52DF140519808F8100F97E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = naturesound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52DF140719808F8100F97E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/naturesound.app/naturesound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = naturesoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		52DF140819808F8100F97E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/naturesound.app/naturesound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = naturesoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DF13E219808F8100F97E04 /* Build configuration list for PBXProject "naturesound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF140119808F8100F97E04 /* Debug */,
+				52DF140219808F8100F97E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF140319808F8100F97E04 /* Build configuration list for PBXNativeTarget "naturesound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF140419808F8100F97E04 /* Debug */,
+				52DF140519808F8100F97E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52DF140619808F8100F97E04 /* Build configuration list for PBXNativeTarget "naturesoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF140719808F8100F97E04 /* Debug */,
+				52DF140819808F8100F97E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DF13DF19808F8100F97E04 /* Project object */;
+}
